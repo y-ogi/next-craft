@@ -8,6 +8,8 @@ import {
   MenuIcon
 } from '@heroicons/react/outline'
 import Social from './Social.js'
+import ThemeSwitcher from './ThemeSwitcher.js'
+import LangSwitcher from './LangSwitcher.js'
 
 const NavBar = () => {
   const router = useRouter()
@@ -61,6 +63,9 @@ const NavBar = () => {
           )
         )}
       </ul>
+
+      <ThemeSwitcher />
+      <LangSwitcher />
 
       <div className='md:hidden mr-2 block '>
         <button
