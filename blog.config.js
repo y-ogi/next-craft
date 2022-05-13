@@ -1,8 +1,8 @@
 const BLOG = {
-  title: 'NextCraft',
-  author: 'Zuo Lan',
-  link: 'https://next-craft.vercel.app',
-  description: 'Using Craft.do pages as a blog',
+  title: 'OGIX NET',
+  author: 'ogi',
+  link: 'https://ogix.vercel.app',
+  description: '',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -10,8 +10,8 @@ const BLOG = {
   darkBackground: '#212936', // use hex value, don't forget '#'
   since: 2021, // If leave this empty, current year will be used.
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://og-zl.vercel.app', // The link to generate OG image, don't end with a slash
-  craftConfigShareUrl: 'https://www.craft.do/s/8gQSdBtbuPjpp1', // The link to share your craft config
+  ogImageGenerateURL: 'https://ogix.vercel.app', // The link to generate OG image, don't end with a slash
+  craftConfigShareUrl: 'https://www.craft.do/s/8HPTGHbQDawWFq', // The link to share your craft config
   notesNav: {
     index: 'Home',
     blog: 'My Blog',
@@ -23,9 +23,9 @@ const BLOG = {
     contact: 'https://zuolan.me/contact'
   },
   socialLink: {
-    twitter: 'https://twitter.com/izuolan',
-    github: 'https://github.com/izuolan',
-    telegram: 'https://t.me/zuolan'
+    twitter: 'https://twitter.com/',
+    github: '',
+    telegram: ''
   },
   seo: {
     keywords: ['Blog', 'Craft.do', 'Craft Docs', 'Next.js', 'TailwindCSS']
