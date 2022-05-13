@@ -8,8 +8,8 @@ const BLOG = {
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#F2F2F2', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#212936', // use hex value, don't forget '#'
-  since: 2021, // If leave this empty, current year will be used.
-  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
+  since: 2022, // If leave this empty, current year will be used.
+  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://ogix.vercel.app', // The link to generate OG image, don't end with a slash
   craftConfigShareUrl: 'https://www.craft.do/s/8HPTGHbQDawWFq', // The link to share your craft config
   notesNav: {
@@ -19,8 +19,8 @@ const BLOG = {
   },
   notesLink: {
     index: '/',
-    blog: 'https://zuolan.me',
-    contact: 'https://zuolan.me/contact'
+    blog: 'https://ogix.vercel.app',
+    contact: 'https://ogix.vercel.app'
   },
   socialLink: {
     twitter: 'https://twitter.com/',
