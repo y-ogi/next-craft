@@ -3,7 +3,7 @@ const BLOG = {
   author: 'ogi',
   link: 'https://ogix.vercel.app',
   description: '',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW']
+  lang: 'ja-JP', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
   lightBackground: '#F2F2F2', // use hex value, don't forget '#' e.g #fffefc
