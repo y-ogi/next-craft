@@ -10,7 +10,7 @@ const BLOG = {
   darkBackground: '#212936', // use hex value, don't forget '#'
   since: 2022, // If leave this empty, current year will be used.
   autoCollapsedNavBar: true, // The automatically collapsed navigation bar
-  ogImageGenerateURL: 'https://ogix.vercel.app', // The link to generate OG image, don't end with a slash
+  ogImageGenerateURL: 'https://og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   craftConfigShareUrl: 'https://www.craft.do/s/8HPTGHbQDawWFq', // The link to share your craft config
   notesNav: {
     index: 'Home',
