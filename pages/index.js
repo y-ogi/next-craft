@@ -1,5 +1,5 @@
 import Container from '@/components/Container'
-import NotePost from '@/components/NotePost'
+import NotePost2 from '@/components/NotePost2'
 import { getAllNotes } from '@/lib/craft'
 import BLOG from '@/blog.config'
 import Hero from '@/components/Hero'
@@ -19,7 +19,7 @@ const Notes = ({ notes }) => {
     <Container title={BLOG.title} description={BLOG.description}>
       <Hero />
       {notes.map((note) => (
-        <NotePost key={note.link} note={note} />
+        <NotePost2 key={note.link} note={note} />
       ))}
     </Container>
   )
