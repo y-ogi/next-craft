@@ -9,7 +9,7 @@ const BLOG = {
   lightBackground: '#F2F2F2', // use hex value, don't forget '#' e.g #fffefc
   darkBackground: '#212936', // use hex value, don't forget '#'
   since: 2022, // If leave this empty, current year will be used.
-  autoCollapsedNavBar: true, // The automatically collapsed navigation bar
+  autoCollapsedNavBar: false, // The automatically collapsed navigation bar
   ogImageGenerateURL: 'https://og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   craftConfigShareUrl: 'https://www.craft.do/s/8HPTGHbQDawWFq', // The link to share your craft config
   notesNav: {
