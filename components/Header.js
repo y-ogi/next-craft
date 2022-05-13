@@ -25,7 +25,27 @@ const NavBar = () => {
   }
 
   const links = [
-
+    {
+      id: 0,
+      name: t.NAV.INDEX,
+      to: '/',
+      icon: <ColorSwatchIcon className='inline-block mb-1 h-5 w-5' />,
+      show: true
+    },
+    {
+      id: 1,
+      name: t.NAV.THEME2,
+      to: '/theme2',
+      icon: <ColorSwatchIcon className='inline-block mb-1 h-5 w-5' />,
+      show: true
+    },
+    {
+      id: 2,
+      name: t.NAV.THEME3,
+      to: '/theme3',
+      icon: <ColorSwatchIcon className='inline-block mb-1 h-5 w-5' />,
+      show: true
+    }
   ]
   return (
     <div className='flex'>
