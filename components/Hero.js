@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import Avatar from './Avatar.js'
 import Social from './Social.js'
 import { lang } from '@/lib/lang'
