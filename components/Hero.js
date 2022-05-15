@@ -17,7 +17,6 @@ const Hero = () => {
             <li className='list-disc'>{t.HERO.TEXT_3}</li>
           </ul>
           <Social />
-          
           <div className='text-gray-400 text-xs font-light py-4'>
             {t.HERO.NOTICE_TEXT}
           </div>
